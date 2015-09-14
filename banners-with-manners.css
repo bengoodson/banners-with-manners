@@ -1,0 +1,160 @@
+.promo-1 {
+ background:rgba(0,0,50,1);
+ font-family:Serif;
+ font-size:1.2rem;
+ line-height:1rem;
+ font-weight:400; 
+ transition:all 500ms ease;
+}
+.promo-1:hover {
+ background:rgba(0,30,40,1);
+}
+.promo-1 .header:hover {
+ letter-spacing:0.21rem;
+}
+
+.promo-2 {
+ background:#222;
+ border-top:1px solid #000;
+ border-bottom:1px solid #000;
+ font-family:Serif;
+ font-size:1.2rem;
+ line-height:1rem;
+ font-weight:400;
+}
+
+.promo-3, .promo-4 {
+ background:#f5f5f5;
+ border-top:1px solid #e5e5e5;
+ border-bottom:1px solid #e5e5e5;
+ font-family:Serif;
+ font-size:1.2rem;
+ line-height:1rem;
+ font-weight:400;
+}
+
+.banner-wrapper {
+  width:100%;
+  margin:0 auto;
+  box-sizing:border-box;
+  float:left;
+  margin-bottom:1rem;/*to be removed*/
+}
+
+.one-col {
+  width:100%;
+  float:left;
+}
+
+.one-two-col {
+  float:left;
+  width:50%;
+  height:100%;
+}
+
+.one-three-col {
+  float:left;
+  width:33%;
+  height:100%;
+}
+
+.two-three-col {
+  float:left;
+  width:66%;
+  height:100%;
+}
+
+.col-inner {
+  color:#fff;
+  text-align:center;
+  border:0px solid #fff;
+  margin:1rem;
+}
+
+.header-1, .header-2, .header-3 {
+  letter-spacing:0.2rem;
+  line-height:2rem;
+  font-size:1.4rem;
+  transition: all 500ms ease-in;
+}
+
+.promo-3 .header-1,.promo-3 .sub-title,.promo-4 .header-1,.promo-4 .header-2,.promo-4 .header-3,promo-4 .sub-title {
+  color:#222;
+}
+
+.header-1:before, .header-2:before, .header-3:before {
+ height:20px;
+ width:20px;
+ content:'';
+ display:inline-block;
+ background:rgba(0,155,80,1);
+ border-radius:50%;
+ margin:0 10px 0 0;
+}
+
+.header-1 span, .header-2 span, .header-3 span {
+  font-size:1.8rem;
+  font-weight:600;
+  text-transform:uppercase;
+}
+
+em {
+  font-size:1.6rem;
+  font-weight:400;
+}
+
+.pre-header {
+  text-transform:uppercase;
+  font-size:0.9rem;
+  color:rgba(0,155,80,1);
+  font-family:Sans-Serif;
+  letter-spacing:0.01rem;
+  transition: all 1000ms ease-in;
+}
+
+.sub-title {
+  text-transform:uppercase;
+  font-size:0.9rem;
+  font-family:Sans-Serif;
+  letter-spacing:0.02rem;
+}
+
+.sub-title span {
+  color:rgba(255,0,100,1);
+  font-style:italic;
+  font-family:Serif;
+  font-size:1.1rem;
+}
+
+@media(max-width:1000px) {
+  .two-three-col, .one-three-col, .one-two-col {
+    width:100%;
+  } 
+  .col-inner {
+  color:#fff;
+  text-align:center;
+  margin:0rem;
+}
+  .header-1, .header-2, .header-3 {
+  letter-spacing:0.2rem;
+  line-height:2rem;
+  margin-top:1.2rem;
+  font-size:1.2rem;
+  transition: all 1000ms ease-in;
+}
+  .pre-header {
+  text-transform:uppercase;
+  font-size:0.8rem;
+  color:rgba(0,155,80,1);
+  font-family:Sans-Serif;
+  letter-spacing:0.02rem;
+  transition: all 1000ms ease-in;
+}
+
+.sub-title {
+  text-transform:uppercase;
+  font-size:0.8rem;
+  font-family:Sans-Serif;
+  letter-spacing:0.02rem;
+}
+}
