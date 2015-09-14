@@ -9,7 +9,7 @@ How To Use
 - Ensure you also link to JQuery 
 - Generate a banner by instantiating a new object, feeding it a DOM node and creating a settings file.
 
-Example:
+Example: http://codepen.io/Goodson/pen/GppNjB
 
 var bannersettings = {
   promoNumber:1,
